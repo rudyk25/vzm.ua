@@ -17,7 +17,7 @@ header::after {
     left: 0;
     height: 5px;
     width: 100%;
-    background-image: url(../image/header_bg.png);
+    background-image: url(/assets/image/header_bg.png);
 }
 
 section {
