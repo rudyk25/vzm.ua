@@ -44,6 +44,10 @@ section {
     font-size: 0.688rem;
 }
 
+.review-item-text {
+    font-size: 0.875rem;
+}
+
 .review-item + .review-item {
     margin-top: 1.875rem;
 }
