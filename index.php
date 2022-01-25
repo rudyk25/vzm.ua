@@ -135,7 +135,7 @@ $data = $review->index();
     </header>
     <section>
         <div class="container">
-            <?php if ($reviews) { ?>
+            <?php if ($data['reviews']) { ?>
                 <div class="reviews">
                     <?php foreach ($data['reviews'] as $review) { ?>
                         <div class="review-item">
