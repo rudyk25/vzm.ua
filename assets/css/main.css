@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+header {
+    background-color: #fff;
+    padding: 1.5rem 0;
+    position: relative;
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-image: url(../image/header_bg.png);
+}
+
+section {
+    background-color: #eeeeee;
+    padding: 2.25rem 0;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.review-item-head {
+    margin-bottom: 0.875rem;
+    line-height: 1;
+}
+
+.review-item-author {
+    font-weight: 700;
+}
+
+.review-item-date {
+    font-size: 0.688rem;
+}
+
+.review-item + .review-item {
+    margin-top: 1.875rem;
+}
+
+.contact-item {
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.contact-item a {
+    color: #000;
+}
+
+.review-form label {
+    display: block;
+    margin-bottom: 0.875rem;
+}
+
+.review-form input[type="text"] {
+    display: block;
+    width: 100%;
+    line-height: 1;
+    padding: 0.875rem 1.25rem;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.review-form textarea {
+    display: block;
+    width: 100%;
+    line-height: 1;
+    padding: 0.875rem 1.25rem;
+    border: 2px solid #000;
+    outline: 0;
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 4px; 
+}
+
+.review-form button[type="submit"] {
+    display: inline-block;
+    line-height: 1;
+    padding: 0.875rem 1.25rem;
+    border: 2px solid #000;
+    outline: 0;
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 4px; 
+}
+
+footer {
+    padding: 1rem 0;
+}
+
+.powered {
+    font-size: 0.75rem;
+}
